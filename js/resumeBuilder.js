@@ -6,7 +6,7 @@ var bio = {
 	"contacts" : {
 		"email" : "timjstrickland@gmail.com", 
 		"mobile" : "208.640.0320",
-		"twitter" : "@TimJKStrickland",
+		"twitter" : "@timjkstrickland",
 		"github" : "timjkstrickland",
 		"location" : "Alameda, CA"
 	},
