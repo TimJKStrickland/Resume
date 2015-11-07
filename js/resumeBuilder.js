@@ -64,17 +64,17 @@ var work = {
 	}],
 		"display" : function(){
 			var data = '%data%'
-	    for(job in work.jobs){
+	    work.jobs.forEach(function(job){
 	    	// creates new div
 	    	$('#workExperience').append(HTMLworkStart);
-		    var formattedEmployer = HTMLworkEmployer.replace(data, work.jobs[job].employer);
-		    var formattedTitle = HTMLworkTitle.replace(data, work.jobs[job].title);
-		    var formattedDates = HTMLworkDates.replace(data, work.jobs[job].dates);
-		    var formattedLocation = HTMLworkLocation.replace(data, work.jobs[job].location);
-		    var formattedDescription = HTMLworkDescription.replace(data, work.jobs[job].description);
+		    var formattedEmployer = HTMLworkEmployer.replace(data, job.employer);
+		    var formattedTitle = HTMLworkTitle.replace(data, job.title);
+		    var formattedDates = HTMLworkDates.replace(data, job.dates);
+		    var formattedLocation = HTMLworkLocation.replace(data, job.location);
+		    var formattedDescription = HTMLworkDescription.replace(data, job.description);
 		    var formattedEmployerTitle = formattedEmployer + formattedTitle + formattedDates + formattedLocation + formattedDescription;
 		    $(".work-entry:last").append(formattedEmployerTitle);
-	    }
+	    });
 	}
 };
 var projects = {
@@ -96,17 +96,17 @@ var projects = {
 		for(project in projects.projects){
 			// creates new div
 			$("#projects").append(HTMLprojectStart);
-			var formattedTitle = HTMLprojectTitle.replace(data, projects.projects[project].title);
+			var formattedTitle = HTMLprojectTitle.replace(data, project.title);
 			$(".project-entry:last").append(formattedTitle);
-			var formattedDates = HTMLprojectDates.replace(data, projects.projects[project].dates);
+			var formattedDates = HTMLprojectDates.replace(data, project.dates);
 			$(".project-entry:last").append(formattedDates);
-			var formattedDescription = HTMLprojectDescription.replace(data, projects.projects[project].description);
+			var formattedDescription = HTMLprojectDescription.replace(data, project.description);
 			$(".project-entry:last").append(formattedDescription);
 			if(projects.projects[project].images.length > 0) {
-			for(image in projects.projects[project].images) {
-			var formattedImage= HTMLprojectImage.replace(data, projects.projects[project].images[image]);
+			projects.images.forEach(function(image) {
+			var formattedImage = HTMLprojectImage.replace(data, image);
 			$(".project-entry:last").append(formattedImage);
-			}
+			});
 		}
 	}
 	}
