@@ -20,13 +20,14 @@ h6 {
 
 .education-entry,
 .work-entry,
-.project-entry {
+.project-entry,
+.onlineClass-entry {
   padding: 0 5%;
 }
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #00384b;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +35,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #00384b;
   line-height: 29px;
   padding: 10px;
 }
@@ -42,7 +43,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #00384b;
   line-height: 22px;
 }
 
@@ -95,12 +96,12 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #333;
+  color: #fff;
   line-height: 28px;
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #00384b;
   display: none;
 }
 #skills {
@@ -108,16 +109,19 @@ a {
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #aaa;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #00384b;
 }
 
 .white-text {
   font-weight: bold;
   color: #fff;
+}
+#footerContacts{
+  background-color: #aaa;
 }
 
 .gray {
@@ -132,7 +136,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #aaa;
 }
 
 .flex-box {
