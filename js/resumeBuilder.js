@@ -93,7 +93,7 @@ var projects = {
 
 	"display" : function(){
 		var data = "%data%"
-		for(project in projects.projects){
+		projects.projects.forEach(function(project){
 			// creates new div
 			$("#projects").append(HTMLprojectStart);
 			var formattedTitle = HTMLprojectTitle.replace(data, project.title);
@@ -102,15 +102,10 @@ var projects = {
 			$(".project-entry:last").append(formattedDates);
 			var formattedDescription = HTMLprojectDescription.replace(data, project.description);
 			$(".project-entry:last").append(formattedDescription);
-			if(projects.projects[project].images.length > 0) {
-			projects.images.forEach(function(image) {
-			var formattedImage = HTMLprojectImage.replace(data, image);
+			var formattedImage = HTMLprojectImage.replace(data, project.images);
 			$(".project-entry:last").append(formattedImage);
-			});
-		}
+		});
 	}
-	}
-
 };
 var education = {
 	"schools": [{
