@@ -25,6 +25,10 @@ h6 {
   padding: 0 5%;
 }
 
+.project-entry{
+  display: inline-block;
+  width: auto;
+}
 h1 {
   font-size: 40px;
   color: #00384b;
