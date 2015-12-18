@@ -10,7 +10,7 @@ var bio = {
 		"github": "timjkstrickland",
 		"location": "Alameda, CA"
 	},
-	"biopic": "./images/fry.jpg",
+	"biopic": "./images/profilepic.jpg",
 	"skills": [
 		"HTML5", "CSS", "jQuery", "Videography", "Adobe Creative Suite"
 	],
@@ -55,18 +55,17 @@ var bio = {
 var work = {
 	"jobs": [{
 		"employer": "Woodruff-Sawyer & Co.",
-		"title": "Marketing Assistant",
+		"title": "Marketing Coordinator",
 		"location": "San Francisco, CA",
-		"dates": "October 2015 - Present",
-		"description": "Lorem Ipsum"
-	}, {
-		"employer": "Woodruff-Sawyer & Co.",
-		"title": "Document Imaging Assistant",
-		"location": "San Francisco, CA",
-		"dates": "June 2014 - October 2015",
-		"description": "Lorem Ipsum"
+		"dates": "October 2012 - Present",
+		"description": "Directing usability study for user-forward design of intranet redesign," +
+		" leading to an increase in traffic. \r Leading troubleshooting and content implementation of" +
+		" HTML and CSS of website redesign to deliver under deadline. \r  Built template library in" +
+		"collaboration with account teams and lead training of template library use which resulted" +
+		"in an increased efficiency of production of marketing materials. \r Shooting photography" +
+		"sessions for corporate headshots and corporate imagery used on printed materials."
 	}],
-	"display": function() {
+	'display': function() {
 		var data = '%data%';
 		work.jobs.forEach(function(job) {
 			// creates new div
@@ -122,14 +121,7 @@ var education = {
 		"minor": "Creative Writing",
 		"dates": 2012,
 		"url": "https://uoregon.edu"
-	}, {
-		"name": "North Idaho College",
-		"location": "Coeur d'Alene, ID",
-		"majors": "General Studies",
-		"degree": ["Associate Degree"],
-		"dates": 2009,
-		"url": "https://www.nic.edu"
-	}],
+	}], 
 	"onlineCourses": [{
 		"title": "Front End Web Developer Nanodegree",
 		"school": "Udacity",
