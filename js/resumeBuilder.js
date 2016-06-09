@@ -1,7 +1,7 @@
 
 var bio = {
 	"welcomeMessage": "Hello.",
-	"name": "Tim Strickland",
+	"name": "Tim JK Strickland",
 	"role": "Front End Web Developer",
 	"contacts": {
 		"email": "timjstrickland@gmail.com",
@@ -12,7 +12,7 @@ var bio = {
 	},
 	"biopic": "./images/fry.jpg",
 	"skills": [
-		"HTML5", "CSS", "jQuery", "Videography", "Adobe Creative Suite"
+		"HTML5", "CSS", "jQuery", "JavaScript", "Adobe Creative Suite"
 	],
 	"display": function() {
 		var data = "%data%";
@@ -55,16 +55,14 @@ var bio = {
 var work = {
 	"jobs": [{
 		"employer": "Woodruff-Sawyer & Co.",
-		"title": "Marketing Assistant",
+		"title": "Marketing Coordinator",
 		"location": "San Francisco, CA",
-		"dates": "October 2015 - Present",
-		"description": "Lorem Ipsum"
-	}, {
-		"employer": "Woodruff-Sawyer & Co.",
-		"title": "Document Imaging Assistant",
-		"location": "San Francisco, CA",
-		"dates": "June 2014 - October 2015",
-		"description": "Lorem Ipsum"
+		"dates": "October 2012 - Present",
+		"description": "Writing new HTML and CSS code for newly redesigned website, saving money and time by keeping edits in-house rather than sending to vendor." + /\n/ +
+				"Directing usability studies for user-focused design of intranet, leading to an increase in site traffic." + /\n/+
+				"Creating graphics, images using Adobe Creative Suite used in marketing materials that led to big client wins." + /\n/ +
+				"Shooting and editing stock photography including headshots for C-level board members used on marketing materials." 
+"
 	}],
 	"display": function() {
 		var data = '%data%';
