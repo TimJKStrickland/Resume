@@ -58,9 +58,9 @@ var work = {
 		"title": "Marketing Coordinator",
 		"location": "San Francisco, CA",
 		"dates": "October 2012 - Present",
-		"description": "Writing new HTML and CSS code for newly redesigned website, saving money and time by keeping edits in-house rather than sending to vendor." + /\n/ +
-				"Directing usability studies for user-focused design of intranet, leading to an increase in site traffic." + /\n/+
-				"Creating graphics, images using Adobe Creative Suite used in marketing materials that led to big client wins." + /\n/ +
+		"description": "Writing new HTML and CSS code for newly redesigned website, saving money and time by keeping edits in-house rather than sending to vendor." + (/\n/ )+
+				"Directing usability studies for user-focused design of intranet, leading to an increase in site traffic." + "/\n/"+
+				"Creating graphics, images using Adobe Creative Suite used in marketing materials that led to big client wins." + "/\n/" +
 				"Shooting and editing stock photography including headshots for C-level board members used on marketing materials." 
 	}],
 	"display": function() {
