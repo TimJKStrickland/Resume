@@ -62,7 +62,6 @@ var work = {
 				"Directing usability studies for user-focused design of intranet, leading to an increase in site traffic." + /\n/+
 				"Creating graphics, images using Adobe Creative Suite used in marketing materials that led to big client wins." + /\n/ +
 				"Shooting and editing stock photography including headshots for C-level board members used on marketing materials." 
-"
 	}],
 	"display": function() {
 		var data = '%data%';
