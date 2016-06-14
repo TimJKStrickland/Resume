@@ -59,10 +59,10 @@ var work = {
 		"location": "San Francisco, CA",
 		"dates": "October 2012 - Present",
 		"description": "Directing usability study for user-forward design of intranet redesign," +
-		" leading to an increase in traffic. \r Leading troubleshooting and content implementation of" +
-		" HTML and CSS of website redesign to deliver under deadline. \r  Built template library in" +
+		" leading to an increase in traffic." + "<br>" + " Leading troubleshooting and content implementation of \n \r" +
+		" HTML and CSS of website redesign to deliver under deadline." + "<br>" + "Built template library in" +
 		"collaboration with account teams and lead training of template library use which resulted" +
-		"in an increased efficiency of production of marketing materials. \r Shooting photography" +
+		"in an increased efficiency of production of marketing materials." + "<br>" + " Shooting photography" +
 		"sessions for corporate headshots and corporate imagery used on printed materials."
 	}],
 	'display': function() {
