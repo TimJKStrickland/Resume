@@ -113,10 +113,11 @@ a {
 
 .container {
   max-width: 980px;
+  margin: 0 auto;
 }
 
 section {
-  margin: 0 auto;
+  margin: inherit;
   padding-bottom: 1em;
 }
 
