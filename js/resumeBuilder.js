@@ -89,20 +89,20 @@ var projects = {
 		"description": "Single Page Web App created with Knockout.js. I designed the layout, built a wireframe using Adobe Photoshop," +
 		" and built the HTML5 and CSS3. The most interesting part for me aside from the actual build was crafting the feel of the " +
 		"app. The project gave me power to showcase how I can target a user base that I can identify and market to."
-		// "images": ["https://www.dropbox.com/s/1dhtkja0kgzpdrb/Screenshot%202016-05-31%2020.51.42.png"]
+		"images": ["https://www.dl.dropboxusercontent.com/s/1dhtkja0kgzpdrb/Screenshot%202016-05-31%2020.51.42.png"]
 	}, {
 		"title": "Run, Bugboy!",
 		"dates": "February 2016",
 		"description": "Built in JavaScript, I created a frogger clone for the Udacity Nanodegree. Hard-coded the player " +
 		"and enemy capabilites, which was a blast."
-		// "images": ["https://www.dropbox.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png"]
+		"images": ["https://www.dl.dropboxusercontent.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png"]
 	}, {
 		"title": "Page Optimization",
 		"dates": "January 2016",
 		"description": "Using the Chrome developer tools and PageSpeed, I refactored a code base for a website to score at" +
 		" least a 91 or higher on PageSpeed and have an average animation of 60fps. Using JavaScript, this project showcases " +
 		"my fascination and passion for making things run as smoothly as possible for the user."
-		// "images": ["https://www.dropbox.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png"]
+		"images": ["https://www.dl.dropboxusercontent.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png"]
 	}],
 
 	"display": function() {
