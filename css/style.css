@@ -11,7 +11,7 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .clear-fix {
@@ -23,6 +23,10 @@ h6 {
 .project-entry,
 .onlineClass-entry {
   padding: 0 5%;
+}
+
+.img-resize {
+  max-width: 400px;
 }
 
 .project-entry{
@@ -200,6 +204,9 @@ span {
   .biopic {
     width: 175px;
   }
+  .img-resize {
+    width: 175px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -211,6 +218,9 @@ span {
   }
   .welcome-message {
     display: none;
+  }
+  .img-resize {
+    width: 150px;
   }
 }
 
