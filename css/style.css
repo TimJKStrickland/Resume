@@ -106,8 +106,18 @@ a {
   color: #00384b;
   display: none;
 }
+
 #skills {
   display: inline-block;
+}
+
+.container {
+  max-width: 980px;
+}
+
+section {
+  margin: 0 auto;
+  padding-bottom: 1em;
 }
 
 .orange {
