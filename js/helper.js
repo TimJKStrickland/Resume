@@ -24,7 +24,7 @@ var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectTitle = '<h3><a href="timjkstrickland.com/" + %data% + "">%data%</a></h3>';
+var HTMLprojectTitle = '<h3>%data%</h3>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p>%data%</p>';
 var HTMLprojectImage = '<img class="img-resize" src="%data%">';
