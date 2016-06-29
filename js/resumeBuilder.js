@@ -113,11 +113,11 @@ var projects = {
 			var formattedTitle = HTMLprojectTitle.replace(data, project.title);
 			var formattedDates = HTMLprojectDates.replace(data, project.dates);
 			var formattedDescription = HTMLprojectDescription.replace(data, project.description);
-			var formattedImage = HTMLprojectImage.replace(data, project.images);
+			// var formattedImage = HTMLprojectImage.replace(data, project.images);
 			$(".project-entry:last").append(formattedTitle)
 				.append(formattedDates)
-				.append(formattedDescription)
-				.append(formattedImage);
+				.append(formattedDescription);
+				// .append(formattedImage);
 		});
 	}
 };
@@ -191,4 +191,4 @@ work.display();
 projects.display();
 
 // Puts the map on the page
-$("#mapDiv").append(googleMap);
+// $("#mapDiv").append(googleMap);
