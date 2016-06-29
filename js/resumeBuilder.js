@@ -117,7 +117,7 @@ var projects = {
 			$(".project-entry:last").append(formattedTitle)
 				.append(formattedDates)
 				.append(formattedDescription);
-				// .append(formattedImage);
+				.append(formattedImage);
 		});
 	}
 };
