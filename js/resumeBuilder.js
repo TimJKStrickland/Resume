@@ -10,9 +10,9 @@ var bio = {
 		"github": "timjkstrickland",
 		"location": "Alameda, CA"
 	},
-	"biopic": "./images/fry.jpg",
+	"biopic": "https://avatars2.githubusercontent.com/u/6686451?v=3&s=460",
 	"skills": [
-		"HTML5", "CSS", "jQuery", "JavaScript", "Adobe Creative Suite"
+		"HTML5", "CSS3", "jQuery", "JavaScript", "Adobe Creative Suite", "WordPress"
 	],
 	"display": function() {
 		var data = "%data%";
@@ -58,9 +58,10 @@ var work = {
 		"title": "Marketing Coordinator",
 		"location": "San Francisco, CA",
 		"dates": "October 2012 - Present",
-		"description": "Writing new HTML and CSS code for newly redesigned website, saving money and time by keeping edits in-house rather than sending to vendor." + (/\n/ )+
-				"Directing usability studies for user-focused design of intranet, leading to an increase in site traffic." + "/\n/"+
-				"Creating graphics, images using Adobe Creative Suite used in marketing materials that led to big client wins." + "/\n/" +
+		"description": "Writing new HTML and CSS code for redesigned WordPress site, saving money and time by keeping edits in-house rather than sending to vendor." +
+				"Maintaining WordPress administration and codebase for site, keeping down maintenance costs from other maintenance contracts." +
+				"Directing usability studies for user-focused design of intranet, leading to an increase in site traffic." +
+				"Creating graphics, images using Adobe Creative Suite used in marketing materials that led to big client wins." +
 				"Shooting and editing stock photography including headshots for C-level board members used on marketing materials." 
 	}],
 	"display": function() {
@@ -83,15 +84,25 @@ var work = {
 };
 var projects = {
 	"projects": [{
-		"title": "Lorem",
-		"dates": "From this to then",
-		"description": "Lorem Ipsum",
-		"images": ["http://placehold.it/400x100"]
+		"title": "Great First Dates",
+		"dates": "March 2016",
+		"description": "Single Page Web App created with Knockout.js. I designed the layout, built a wireframe using Adobe Photoshop," +
+		" and built the HTML5 and CSS3. The most interesting part for me aside from the actual build was crafting the feel of the " +
+		"app. The project gave me power to showcase how I can target a user base that I can identify and market to.",
+		"images": ["https://www.dropbox.com/s/1dhtkja0kgzpdrb/Screenshot%202016-05-31%2020.51.42.png?dl=0"]
 	}, {
-		"title": "Lorem",
-		"dates": "From this to then",
-		"description": "Lorem Ipsum",
-		"images": ["http://placehold.it/400x100"]
+		"title": "Run, Bugboy!",
+		"dates": "February 2016",
+		"description": "Built in JavaScript, I created a frogger clone for the Udacity Nanodegree. Hard-coded the player " +
+		"and enemy capabilites, which was a blast.",
+		"images": ["https://www.dropbox.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png?dl=0"]
+	}, {
+		"title": "Page Optimization",
+		"dates": "January 2016",
+		"description": "Using the Chrome developer tools and PageSpeed, I refactored a code base for a website to score at" +
+		" least a 91 or higher on PageSpeed and have an average animation of 60fps. Using JavaScript, this project showcases " +
+		"my fascination and passion for making things run as smoothly as possible for the user.",
+		"images": [""]
 	}],
 
 	"display": function() {
@@ -128,10 +139,15 @@ var education = {
 		"url": "https://www.nic.edu"
 	}],
 	"onlineCourses": [{
+		"title": "Android Basics Nanodegree",
+		"school": "Udacity",
+		"date": 2016,
+		"url": "https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803"
+	}, {
 		"title": "Front End Web Developer Nanodegree",
 		"school": "Udacity",
-		"date": 2015,
-		"url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+		"date": 2015-2016,
+		"url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"	
 	}, {
 		"title": "WordPress Essential Training",
 		"school": "Lynda.com",
