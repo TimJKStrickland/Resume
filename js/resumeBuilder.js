@@ -116,7 +116,7 @@ var projects = {
 			// var formattedImage = HTMLprojectImage.replace(data, project.images);
 			$(".project-entry:last").append(formattedTitle)
 				.append(formattedDates)
-				.append(formattedDescription);
+				.append(formattedDescription)
 				.append(formattedImage);
 		});
 	}
