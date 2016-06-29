@@ -108,12 +108,11 @@ var projects = {
 	"display": function() {
 		var data = "%data%";
 		projects.projects.forEach(function(project) {
-			// creates new mapDiv
 			$("#projects").append(HTMLprojectStart);
 			var formattedTitle = HTMLprojectTitle.replace(data, project.title);
 			var formattedDates = HTMLprojectDates.replace(data, project.dates);
 			var formattedDescription = HTMLprojectDescription.replace(data, project.description);
-			// var formattedImage = HTMLprojectImage.replace(data, project.images);
+			var formattedImage = HTMLprojectImage.replace(data, project.images);
 			$(".project-entry:last").append(formattedTitle)
 				.append(formattedDates)
 				.append(formattedDescription)
