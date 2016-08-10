@@ -97,12 +97,12 @@ var projects = {
 		"and enemy capabilites, which was a blast.",
 		"images": ["https://dl.dropboxusercontent.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png"]
 	}, {
-		"title": "Page Optimization",
-		"dates": "January 2016",
-		"description": "Using the Chrome developer tools and PageSpeed, I refactored a code base for a website to score at" +
-		" least a 91 or higher on PageSpeed and have an average animation of 60fps. Using JavaScript, this project showcases " +
-		"my fascination and passion for making things run as smoothly as possible for the user.",
-		"images": ["https://dl.dropboxusercontent.com/s/1rs8khfyjbw18wv/Screenshot%202016-05-31%2021.25.24.png"]
+		"title": "FindMe",
+		"dates": "November 2015",
+		"description": "At the Smart City Hackathon I built the web dashboard for a first responder team using HTML, CSS, and Javascript" +
+		"with the idea that multiple sensors would use the Sigfox network to communicate distress calls. Any time an event is triggered," +
+		"the alarm goes off alerting first responders with how many people are in which room, and how destructive the event was to the building.",
+		"images": ["https://dl.dropboxusercontent.com/s/ejtcg5shd6phepp/Screenshot%202015-11-22%2012.32.08.png"]
 	}],
 
 	"display": function() {
