@@ -77,6 +77,11 @@ h5 {
   color: #999;
   line-height: 16px;
   float: left;
+  padding-right: 16px;
+}
+
+.date-text p {
+  padding-left: 32px;
 }
 
 .location-text {
